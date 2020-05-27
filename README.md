@@ -142,6 +142,8 @@ end
 Now all the tests will pass!
 Try to complete the similar exercise below where the `Shoe` class can keep track of all of the brands of the different show objects.
 
+**Note**: You may wonder what the difference between the class method (`@@all`) and a contant (`ALL`) is. In this case both are fulfilling the same task -- storing all instances of a given class and it is your preference which as to which you want to use. However, remember that **contants are not to be mutated**. Now, you may ask "how does this relate to the fact that we are pushing instances to the array, thus changing it?". Well, adding elements to an array is not changing its data type or memory path so you’re not actually mutating it -- the constant still points to the same array with the same memory path.
+
 ## Shoe Class
 
 Open `spec/02_shoe_spec.rb` and start making the tests pass. Write your code in `shoe.rb`.
